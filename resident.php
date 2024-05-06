@@ -57,10 +57,10 @@
 
     <div id="login-box">
         <h2 id="form-title">RESIDENT LOGIN</h2>
-        <form action="newlogin1.php" method="post">
+        <form action="newlogin.php" method="post">
             <input type="text" name="user_name" placeholder="NAME" required><br><br>
            
-            <input type="text" name="password" placeholder="PASSWORD" required><br><br>
+            <input type="password" name="password" placeholder="PASSWORD" required><br><br>
             <input type="submit" name="login" value="Login"  id="login-button">
             
         </form>
